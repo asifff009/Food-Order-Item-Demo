@@ -69,7 +69,6 @@ public class Order {
             Item item = new Item(itemId, itemName, price);
             order.setItem(i, item);
         }
-
         // Step 5: Display Order Details
         System.out.println("\n========= ORDER SUMMARY =========");
         order.display();
