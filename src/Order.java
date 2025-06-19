@@ -58,11 +58,11 @@ public class Order {
         // Step 4: Input for 2 Food Items
         for (int i = 0; i < 2; i++) {
             System.out.println("\nEnter details for Item " + (i + 1));
-            System.out.print("Enter Item ID: ");
+            System.out.print("Enter Item ID : ");
             String itemId = sc.nextLine();
-            System.out.print("Enter Item Name: ");
+            System.out.print("Enter Item Name : ");
             String itemName = sc.nextLine();
-            System.out.print("Enter Item Price: ");
+            System.out.print("Enter Item Price : ");
             price = sc.nextDouble();
             sc.nextLine(); // consume newline
 
