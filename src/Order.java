@@ -18,7 +18,7 @@ public class Order {
     }
 
     public void display() {
-        System.out.println("Order Date : " + orderDate + " Quantity : " + quantity);
+        System.out.println("Order Date : " + orderDate + " Quantity: " + quantity);
         customer.display();
 
         for (int i = 0; i < item.length; i++) {
