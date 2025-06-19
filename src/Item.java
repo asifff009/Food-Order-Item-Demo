@@ -9,6 +9,6 @@ public class Item {
         this.price = price;
     }
     public void display(){
-        System.out.println("Item ID : "+id+" Item Name : "+name+" Item Price : "+price);
+        System.out.println("Item ID : "+id+", Item Name : "+name+" Item Price : "+price);
     }
 }
